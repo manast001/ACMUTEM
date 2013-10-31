@@ -22,3 +22,14 @@ long fibonachi(long n)
     return fibonachi(n-1)+fibonachi(n-2);
 }
 
+long factorial(long n)
+{
+  if(n<=1)
+  {
+    return 1;
+  }else
+  {
+    return factorial(n-1)*n;
+  }
+}
+
